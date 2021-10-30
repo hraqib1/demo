@@ -25,7 +25,7 @@ public class DemoApplication {
 		return builder.build();
 	}
 
-	String url = "https://localhost:8080/message/01";
+	String url = "http://localhost:8080/message/01";
    
 	@Bean
 	public CommandLineRunner run(RestTemplate restTemplate) throws Exception {
